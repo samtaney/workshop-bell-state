@@ -11,6 +11,8 @@ def main():
     # Quantum circuit starts here
     # MISSING
     # MISSING
+    circuit.h(q[0])
+    circuit.cnot(q[0], q[1])
     circuit.measure(q, c)
     # End quantum circuit
 
