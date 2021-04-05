@@ -13,7 +13,7 @@ def main():
     # MISSING
     circuit.h(q[0])
     circuit.cnot(q[0], q[1])
-    circuit.cnot(q[0], q[1], q[2])
+    circuit.cnot(q[1], q[2])
     circuit.measure(q, c)
     # End quantum circuit
 
